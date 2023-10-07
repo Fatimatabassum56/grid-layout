@@ -1,6 +1,8 @@
 .container{
     display:grid;
     height:800px;
+    width:800px;
+    margin:20px auto;
     gap:10px;
     grid-template-columns: 200px 1fr;
     grid-template-rows:100px 400px 100px ;
