@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 1000px 200px;
+    grid-template-rows: 100px 800px 100px;
+    gap:5px;
+    height:1000px;
+}
+.box{
+    text-align: center;
+    background-color: chocolate;
+    font-size: 40px;
+}
+#box1{
+    grid-column: span 3 ;                   
+}
+#box5{
+    grid-column: span 3 ; 
+}
